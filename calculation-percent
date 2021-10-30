@@ -1,0 +1,12 @@
+//Our number.
+var number = 120;
+ 
+//The percent that we want to get.
+//i.e. We want to get 50% of 120.
+var percentToGet = 50;
+ 
+//Calculate the percent.
+var percent = (percentToGet / 100) * number;
+ 
+//Alert it out for demonstration purposes.
+alert(percentToGet + "% of " + number + " is " + percent);
